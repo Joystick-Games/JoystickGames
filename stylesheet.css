@@ -1,0 +1,179 @@
+html{
+    min-height: 100%;
+    min-width: 100%;
+    overflow-x: hidden;
+  }
+  
+  body{
+    font-size: 13px;
+    text-align: center;
+    background-image: white;
+    background-attachment: fixed;
+    font-family: 'Oswald', sans-serif;
+  }
+  
+  h1,h2{
+    /*font-weight: bold;*/
+    font-size: 60px;
+    color:black;
+    margin-right: 0 auto;
+    text-align: center;
+  }
+  
+  h4 {
+      text-transform: uppercase;
+      color: black;
+      font-weight:bold;
+      font-size: 16px;
+      font-size: 4vw;
+  }
+  
+  
+  p{
+      font-weight:bold;
+      color: black;
+      font-size: 40px;
+      text-align: justify;
+      margin: 1.3em;
+  
+  }
+
+  figcaption{
+    font-weight:bold;
+    color: black;
+    font-size: 40px;
+}
+  
+  li{
+    text-align: left;
+    text-indent: 1em;
+    letter-spacing: 1px;
+    color: black;    
+    font-size: 3.2vw;
+    font-weight: bold;
+  }
+  img {
+    filter: drop-shadow(7px 7px 7px rgb(0, 0, 0));
+    max-width: 20%;
+    display: block;
+    margin: auto; }
+  
+  .enemies{
+    max-width: 80%;
+    display: block;
+    margin-right:auto;
+    margin-left:auto;
+    border: 0.5vw solid black;
+    padding: 0em;
+    border-radius: 3vw;
+  
+  }
+  
+  .roundedgame{
+    max-width: 100%;
+    filter: drop-shadow(7px 7px 7px rgb(40, 40, 40)); 
+  }
+
+  figure{
+    max-width: 50em;
+    display: block;
+    margin-right:auto;
+    margin-left:auto;
+    padding: 1em;
+  
+  }
+  
+  a {
+    text-decoration: underline;
+    color: black
+  }
+  
+  .padded{
+    border-radius: 3vw;
+    padding: 0.5em;
+    border: 0.5vw solid black;
+    font-weight: bold;
+    color:black;
+    text-align: center;
+  
+  }
+  
+  .desc{
+    margin-top: 1em;
+    margin-bottom: -0.1em;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 0.8em 0.8em 0em 0em;
+    border: 0.15em solid black;
+    color:black;
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .img-with-text {
+      font-size:100%;
+      margin-left: 200px;
+      text-align: left;
+  }
+  
+  .img-with-text img {
+      width:400px;
+  }
+  
+  .container {
+      display: -webkit-flexbox;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-flex-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+      justify-content: center;
+  }
+  
+  .section-left{
+    float: left;
+    width: 47%;
+  }
+  .section-right{
+    float: right;
+    width: 47%;
+  }
+  
+  .cool{
+    background-color: black;
+    border: 2px solid black;
+    width: 80%;
+    height: 0.5vw;
+    margin: 1.5em;
+    border-radius: 1em;
+  }
+  
+  .inner{
+    height: 100%;
+    background-color: black;
+  }
+  
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  .column {
+    flex: 50%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 3vw;
+    vertical-align: middle;
+  }
+  
+  ul { 
+    display: inline-block;
+    text-align: left 
+  }

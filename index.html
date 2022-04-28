@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Joystick Games</title>
+	<link href="stylesheet.css" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="pdp.png">
+  <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
+  <link rel="shortcut icon" type="image/png" href="Images/joystickIcon.png">
+</head>
+
+<body>
+
+   	<script>
+		function strength() {
+        var x = document.getElementById("strengthp");
+
+        if (x.style.display === "none") {
+          document.getElementById("strength").innerHTML = "Force extra-ordinaire! -";
+          x.style.display = "block";
+        } else {
+          x.style.display = "none";
+          document.getElementById("strength").innerHTML = "Force extra-ordinaire! +";
+        }
+      }
+		function speed() {
+        var x = document.getElementById("speedp");
+
+        if (x.style.display === "none") {
+          document.getElementById("speed").innerHTML = "Agilité hors du commun! -";
+          x.style.display = "block";
+        } else {
+          x.style.display = "none";
+          document.getElementById("speed").innerHTML = "Agilité hors du commun! +";
+        }
+      }
+		function superpower() {
+        var x = document.getElementById("superpowerp");
+
+        if (x.style.display === "none") {
+          document.getElementById("superpower").innerHTML = "Super-pouvoirs! -";
+          x.style.display = "block";
+        } else {
+          x.style.display = "none";
+          document.getElementById("superpower").innerHTML = "Super-pouvoirs! +";
+        }
+      }
+	</script>
+<img src="Images/joystickIcon.png" style="margin:auto; max-width:16em"> 
+<h1>Joystick Games</h1> 
+<p style="font-weight:bold; text-align:center;">MADE TO BE PLAYED.</p>
+
+<div class="column"> 
+      <div class="row">
+        <figure>
+          <img class="roundedgame" src="Images/roundedventurebanner2.0.png">
+          <br>
+          <figcaption>Venture Run</figcaption>
+        </figure>
+        <figure>
+          <img class="roundedgame" src="Images/roundedskybox.png">
+          <br>
+          <figcaption>Sky Box</figcaption>
+        </figure>
+        <figure>
+          <img class="roundedgame" src="Images/flash.png">
+          <br>
+          <figcaption>The Flash</figcaption>
+        </figure>
+        <figure>
+          <img class="roundedgame" src="Images/platform.png">
+          <br>
+          <figcaption>The Platform</figcaption>
+        </figure>
+        <figure>
+          <img class="roundedgame" src="Images/flappy.png">
+          <br>
+          <figcaption>Flappy Bird</figcaption>
+        </figure>
+        <figure>
+          <img class="roundedgame" src="Images/remindme.png">
+          <br>
+          <figcaption>Remind Me!</figcaption>
+        </figure>
+        <figure>
+          <img class="roundedgame" src="Images/pkm.png">
+          <br>
+          <figcaption>PKM Card Values</figcaption>
+        </figure>
+      </div>
+    </div>
+
+    <br>
+
+
+  </body>
+</html>
